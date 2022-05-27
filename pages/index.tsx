@@ -26,7 +26,7 @@ const Home: NextPage<Props> = ({ value }) => {
         <>
         <Head>
             <meta charSet="UTF-8" />
-            <title>blah</title>
+            <title>custom QR screensaver</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@shofsosho" />
@@ -36,6 +36,7 @@ const Home: NextPage<Props> = ({ value }) => {
             <meta name="twitter:image" content={`https://qr-screensaver.vercel.app/api/card?value=${value}`} />
         </Head>
 
+        
         {ready && <SS value={value} />}
         </>
     );
