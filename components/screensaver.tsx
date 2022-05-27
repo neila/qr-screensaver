@@ -45,7 +45,7 @@ export function SS( { value } : Props){
     return (
         <div className="contents">
             <div className="content">
-                <div ref={screensaver.parentRef} className="hoooks-parent">
+                <div ref={screensaver.parentRef} className="hooks-parent">
                     <div
                         ref={screensaver.childRef}
                         className="hooks-child"

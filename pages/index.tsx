@@ -33,7 +33,7 @@ const Home: NextPage<Props> = ({ value }) => {
             <meta name="twitter:creator" content="@shofosho" />
             <meta name="twitter:title" content="QR screensaver" />
             <meta name="twitter:description" content="Generate a custom QR code screensaver!" />
-            <meta name="twitter:image" content={`https://coinbase-qr.vercel.app/api/card?value=${value}`} />
+            <meta name="twitter:image" content={`https://qr-screensaver.vercel.app/api/card?value=${value}`} />
         </Head>
 
         {ready && <SS value={value} />}
